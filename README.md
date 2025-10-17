@@ -1,0 +1,1 @@
+Calculadora simples desenvolvida com HTML, CSS e JavaScript, criada com o objetivo de praticar e aprimorar conceitos fundamentais de front-end.
