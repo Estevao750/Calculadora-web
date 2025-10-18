@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora</title>
 </head>
 <body>
+    <img class="logo" src="images/icone_calculadora.png" alt="Logo da Calculadora" title="Calculadora Web">
     <h1>Calculadora</h1>
     <div class="calculadora">
         <input type="text" id="display" disabled>
         <div class="buttons">
             <button onclick="addNumber()">C</button>
             <button onclick="addNumber()" title="Apagar">
-                <img src="images/Botão_delete_icone_.png" alt="Ícone de apagar">
+                <img class="apagar" src="images/Botão_delete_icone_.png" alt="Ícone de apagar">
             </button>
             <button onclick="addNumber()">/</button>
             <button onclick="addNumber()">*</button>
@@ -31,7 +33,7 @@
             <button onclick="addNumber()">0</button>
             <button onclick="addNumber()">.</button>
             <button onclick="limparDisplay()" title="Limpar">
-                <img src="images/lixeira_icone.png" alt="Ícone de lixeira">
+                <img class="lixeira" src="images/lixeira_icone.png" alt="Ícone de lixeira">
             </button>
         </div>
     </div>
