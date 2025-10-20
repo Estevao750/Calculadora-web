@@ -12,31 +12,29 @@
     <div class="calculadora">
         <input type="text" id="display" disabled>
         <div class="buttons">
-            <button onclick="addNumber()">C</button>
-            <button onclick="addNumber()" title="Apagar">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="deleteLast()" title="Apagar">
                 <img class="apagar" src="images/Botão_delete_icone_.png" alt="Ícone de apagar">
             </button>
-            <button onclick="addNumber()">/</button>
-            <button onclick="addNumber()">*</button>
-            <button onclick="addNumber()">7</button>
-            <button onclick="addNumber()">8</button>
-            <button onclick="addNumber()">9</button>
-            <button onclick="addNumber()">-</button>
-            <button onclick="addNumber()">4</button>
-            <button onclick="addNumber()">5</button>
-            <button onclick="addNumber()">6</button>
-            <button onclick="addNumber()">+</button>
-            <button onclick="addNumber()">1</button>
-            <button onclick="addNumber()">2</button>
-            <button onclick="addNumber()">3</button>
+            <button onclick="addNumber('/')">/</button>
+            <button onclick="addNumber('*')">*</button>
+            <button onclick="addNumber('7')">7</button>
+            <button onclick="addNumber('8')">8</button>
+            <button onclick="addNumber('9')">9</button>
+            <button onclick="addNumber('-')">-</button>
+            <button onclick="addNumber('4')">4</button>
+            <button onclick="addNumber('5')">5</button>
+            <button onclick="addNumber('6')">6</button>
+            <button onclick="addNumber('+')">+</button>
+            <button onclick="addNumber('1')">1</button>
+            <button onclick="addNumber('2')">2</button>
+            <button onclick="addNumber('3')">3</button>
             <button onclick="calcularResultado()" id="igual">=</button>
-            <button onclick="addNumber()">0</button>
-            <button onclick="addNumber()">.</button>
-            <button onclick="limparDisplay()" title="Limpar">
-                <img class="lixeira" src="images/lixeira_icone.png" alt="Ícone de lixeira">
-            </button>
+            <button onclick="addNumber('0')" class="zero">0</button>
+            <button onclick="addNumber('.')">.</button>
         </div>
     </div>
+    <script src="script.js"></script>
     
 </body>
 </html>
