@@ -19,3 +19,10 @@ function calcularResultado() {
         display.value = 'Error';
     }
 }
+
+const trilho = document.querySelector('.trilho');
+trilho.addEventListener('click', function() {
+    document.body.classList.toggle('light-theme');
+});
+
+
