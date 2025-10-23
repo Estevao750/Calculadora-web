@@ -80,6 +80,7 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #1c1b1b;
+    transition: 0.5s;
 }
 body.light-theme{
     background-color: #f0f0f0;
@@ -89,9 +90,11 @@ body.light-theme h1{
 }
 h1{
     color: #fff;
+    transition: 0.5s;
 }
 .titulo_destaque{
     color: #1E90FF;
+    transition: 0.5s;
 }
 body.light-theme .titulo_destaque{
     color: #00BFFF;
@@ -101,6 +104,7 @@ body.light-theme .titulo_destaque{
     width: 300px;
     border-radius: 10px;
     padding: 10px;
+    transition: 0.5s;
 }
 body.light-theme .calculadora{
     background-color: #dcdcdc;
@@ -119,6 +123,7 @@ body.light-theme .calculadora{
     border-radius: 4px;
     font-weight: 700; 
     font-size: 1rem;
+    transition: 0.5s;
 }
 body.light-theme .buttons button{
     background: #e0e0e0;
